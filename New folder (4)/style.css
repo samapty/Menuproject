@@ -1,0 +1,85 @@
+body{	
+	padding: 0px;
+	margin: 0px;
+	background-color: skyblue;
+}
+.cantainer{
+	width: 1430px;
+	height: 0px;
+}
+.header-line{
+	float: left;
+	width: 100%;
+}
+.logo{
+	float: right;
+	width: 10%;
+	padding-top: 5px;
+}
+.logo img{
+	height: 40px;
+	vertical-align: middle;
+}
+.logo-text{
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo-text a{
+	text-decoration: none;
+	color: black;
+}
+.icons{
+	float: left;
+	width: 10%;
+	display: inline-block;
+}
+.icons ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	padding: 10px;
+}
+.icons ul li a{
+	color: black;
+}
+.icons ul li a i{
+	display: inline-block;
+	position: absolute;
+	top: 8;
+	left: 16;
+	background-color: skyblue;
+	display: inline-block;
+}
+.menu{
+	float: left;
+	width: 75%;
+	text-align: center;
+	background-color:skyblue;
+	padding: 8px;
+}
+.menu ul li {
+	list-style:none;
+	display: inline-block;
+}
+.menu ul li a{
+	color: red;
+	text-decoration: none;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 0.6s;
+}
+.menu ul li a:hover{
+	background-color: black;
+	color: green;
+	padding: 20px;
+	border-radius: 5px;
+	transition:0.6s;
+}
+.menu:hover{
+	cursor: pointer;
+}
+.menu ul li {
+	text-align: left;
+	padding: 10px;
+}
